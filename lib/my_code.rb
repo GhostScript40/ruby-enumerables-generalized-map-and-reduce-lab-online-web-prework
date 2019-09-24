@@ -16,6 +16,7 @@ def reduce(source_array)
     total = total + source_array[i]
     i += 1 
   end
+  totalotal
 end
     
   
