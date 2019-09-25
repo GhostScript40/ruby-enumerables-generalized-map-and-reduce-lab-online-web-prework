@@ -15,7 +15,7 @@ def reduce(source_array)
     total << yield(source_array[i])
     i += 1 
   end
-  total
+  source_array.sum
 end
     
   
