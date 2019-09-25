@@ -13,8 +13,8 @@ def reduce(source_array)
   total = 0
   while i < source_array.count do
     total + source_array[i]
-    yield(total)
     i += 1 
+    yield(total)
   end
   total
 end
