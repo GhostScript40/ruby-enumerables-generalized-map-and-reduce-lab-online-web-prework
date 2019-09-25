@@ -8,7 +8,7 @@ def map (source_array)
 negative_array
 end
 
-def reduce(source_array, starting_value = nil)
+def reduce(source_array, starting_value=nil)
   i = 0 
   total = 0
   while i < source_array.count do
