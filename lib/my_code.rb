@@ -10,7 +10,7 @@ end
 
 def reduce(source_array)
   i = 0 
-  total = 0
+  total = source_array.sum
   while i < source_array.count do
     total + source_array[i]
     i += 1 
