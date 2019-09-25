@@ -9,7 +9,8 @@ negative_array
 end
 
 def reduce(source_array, starting_value=nil)
-  
+  if starting_value
+    num =
   end
 end
     
